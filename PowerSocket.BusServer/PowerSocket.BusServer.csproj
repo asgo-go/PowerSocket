@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PowerSocket.BusShare\PowerSocket.BusShare.csproj" />
+    <ProjectReference Include="..\PowerSocket.Core\PowerSocket.Core.csproj" />
+  </ItemGroup>
+
+</Project>

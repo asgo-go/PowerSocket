@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="UdpTest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PowerSocket.BusAction\PowerSocket.BusAction.csproj" />
+    <ProjectReference Include="..\PowerSocket.BusClient\PowerSocket.BusClient.csproj" />
+    <ProjectReference Include="..\PowerSocket.BusServer\PowerSocket.BusServer.csproj" />
+    <ProjectReference Include="..\PowerSocket.Core\PowerSocket.Core.csproj" />
+  </ItemGroup>
+
+</Project>
